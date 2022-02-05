@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>User | Login</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+  </head>
+
+  <body>
+    <div id="particles-js"></div>
+    <div class="center">
+      <h1>Login</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <input type="submit" value="Login">
+        <div class="signup_link">
+          Not a member? <a href="assets/html/signup/index.html">Signup</a>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script>
+    $(document).ready(function() {
+        function disableBack() { window.history.forward() }
+
+        window.onload = disableBack();
+        window.onpageshow = function(evt) { if (evt.persisted) disableBack() }
+    });
+</script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+  <script src="assets/js/background.js"></script>
+</html>
