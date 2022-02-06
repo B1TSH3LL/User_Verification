@@ -10,7 +10,9 @@
 
 # Setup Database
 1)Visit : http://localhost/phpmyadmin/
+
 2)Click On New Database.
+
 3)Create New Database With Name "demo".
 
 # SQL Query
