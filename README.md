@@ -25,7 +25,7 @@ CREATE TABLE users (
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 ```
-Please check out the tutorial on (SQL CREATE TABLE statement)[https://www.tutorialrepublic.com/sql-tutorial/sql-create-table-statement.php] for the detailed information about syntax for creating tables in MySQL database system.
+Please check out the tutorial on [SQL CREATE TABLE statement](https://www.tutorialrepublic.com/sql-tutorial/sql-create-table-statement.php) for the detailed information about syntax for creating tables in MySQL database system.
 
 # Deployment
 1)Paste The Code Files In C:\xampp\htdocs
