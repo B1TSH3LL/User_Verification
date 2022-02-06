@@ -9,11 +9,11 @@
 6) Test in browser. Visit : http://localhost
 
 # Setup Database
-1)Visit : http://localhost/phpmyadmin/
+1) Visit : http://localhost/phpmyadmin/
 
-2)Click On New Database.
+2) Click On New Database.
 
-3)Create New Database With Name "demo".
+3) Create New Database With Name "demo".
 
 # SQL Query
 1)Run The Below SQL Query In The New Database.
@@ -28,7 +28,7 @@ CREATE TABLE users (
 Please check out the tutorial on [SQL CREATE TABLE statement](https://www.tutorialrepublic.com/sql-tutorial/sql-create-table-statement.php) for the detailed information about syntax for creating tables in MySQL database system.
 
 # Deployment
-1)Paste The Code Files In C:\xampp\htdocs
+Paste The Code Files In C:\xampp\htdocs
 
 In Case There Are Other Files You Can Also Delete Them
 
